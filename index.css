@@ -21,10 +21,10 @@ main {
     padding: 20px;
     background-color: black;
     overflow: hidden;
+    min-height: 80vh;
 }
 
 h1 {
-    font-size: 50px;
     text-align: center;
     color: red;
 }
@@ -38,9 +38,14 @@ ul {
     color: red;
 }
 
-.image {
+.image1 {
     height: auto;
-    width: 550px;
+    width: 70%;
+}
+
+.image2 {
+    height: auto;
+    width: 50%;
 }
 
 footer {
