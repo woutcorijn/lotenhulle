@@ -63,9 +63,16 @@ footer {
     padding: 5px;
 }
 
-th {
+table {
+    border-collapse: collapse;
+    width: 100%;
+    table-layout: fixed;
+    background-color:greenyellow;
+  }
+  table, th, td {
     text-align: left;
-}
+    border-bottom: 1px solid yellow;
+  }
 
 /* mobile */
 @media only screen
