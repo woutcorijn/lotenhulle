@@ -27,6 +27,15 @@ main {
 h1 {
     text-align: center;
     color: red;
+    font-size: 2.5em;
+}
+
+h2 {
+    margin: 15px 0;
+}
+
+h3 {
+    margin: 10px 0;
 }
 
 
@@ -74,6 +83,16 @@ table {
     border-bottom: 1px solid yellow;
   }
 
+  .artikel {
+    padding: 15px;
+    color: black;
+    background-color: rgb(255, 220, 239);
+  }
+
+  .artikel h2 {
+    color: blue;
+  }
+
 /* mobile */
 @media only screen
 and (min-device-width : 320px)
@@ -91,5 +110,8 @@ and (max-device-width : 1024px)
     footer {
         width: 100%;
     }
+    table {
+        font-size: 0.7em;
+  }
 
 }
